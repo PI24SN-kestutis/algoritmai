@@ -1,0 +1,25 @@
+# Ignoruojami kompiliuojami failai
+*.exe
+*.o
+*.obj
+*.log
+*.out
+*.tmp
+*.dll
+
+# IDE ir sisteminiai failai
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CMake generuojami failai
+CMakeCache.txt
+CMakeFiles/
+cmake-build-debug/
+cmake-build-release/
+build/
+Makefile
+CMakeLists.txt.user
+CTestTestfile.cmake
+cmake_install.cmake
