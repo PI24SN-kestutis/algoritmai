@@ -1,0 +1,3 @@
+C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/kontrolinis2/pirma/cmake-build-debug/CMakeFiles/pirma.dir
+C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/kontrolinis2/pirma/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/kontrolinis2/pirma/cmake-build-debug/CMakeFiles/rebuild_cache.dir
