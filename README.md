@@ -44,4 +44,5 @@
 
 1. Atsisiųskite arba nuklonuokite repozitoriją:
    ```bash
-   git clone https://github.com/jusu-vardas/cikliniai-sarasai.git
+[Branch „cikliniai-sarasai“] (https://github.com/PI24SN-kestutis/algoritmai/tree/cikliniai-sarasai)
+
