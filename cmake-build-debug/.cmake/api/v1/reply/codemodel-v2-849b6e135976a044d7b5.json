@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "praktinis_darbas3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "praktinis_darbas3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-praktinis_darbas3-Debug-99f88ad5263badb544d1.json",
+					"name" : "praktinis_darbas3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas3/cmake-build-debug",
+		"source" : "C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
