@@ -1,0 +1,32 @@
+# CLion/JetBrains project files
+.idea/
+*.iml
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Build output
+/build/
+build/
+out/
+*.o
+*.obj
+*.so
+*.exe
+*.a
+*.dll
+
+# User-specific files
+*.log
+*.tmp
+*.swp
+*.user
+*.directory
+
+# OS-specific files
+.DS_Store
+Thumbs.db
