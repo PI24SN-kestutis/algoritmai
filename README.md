@@ -1,80 +1,85 @@
-# Vienmatis masyvas
+# Dinaminiai sąrašai C++
 
-Ši C++ programa atlieka įvairias operacijas su vienmačiu masyvu.
+Ši C++ programėlė įgyvendina:
 
-## Funkcionalumas
+1. **Vienkryptį sąrašą** su funkcijomis:
+    - Elemento įterpimas į pabaigą
+    - Pašalinimas pagal reikšmę
+    - Paieška
+    - Spausdinimas
 
-Programa leidžia:
+2. **Dvikryptį sąrašą**, į kurį perkeliami vienkrypčio sąrašo elementai, ir kuris gali būti atspausdintas.
 
-* Nustatyti masyvo dydį.
-* Įvesti masyvo elementus.
-* Įvesti intervalą [a; b].
-* Rasti didžiausią pagal absoliučią reikšmę elementą.
-* Apskaičiuoti sumą elementų, esančių po pirmojo teigiamo elemento (pagal absoliutų dydį).
-* Pertvarkyti masyvą taip, kad pirmiausia eitų elementai, priklausantys intervalui [a; b], o paskui likę elementai.
-* Atspausdinti masyvo elementus.
+---
 
-## Naudojimas
+## 🔧 Pagrindinės struktūros
 
-1.  **Kompiliavimas**:
+- `struct Vienkryptis` – vienkrypčio sąrašo mazgas
+- `struct Dvikryptis` – dvikrypčio sąrašo mazgas
 
+---
+
+## 📂 Failai
+
+- `main.cpp` – pagrindinis programos failas
+- (neprivaloma) `README.md` – šis dokumentas
+
+---
+
+## 💻 Kaip paleisti
+
+1. Įkelk šį projektą į savo aplanką:
     ```bash
-    g++ main.cpp -o array_program
+    git clone https://github.com/tavo-vardas/vienkryptis-dvikryptis.git
+    cd vienkryptis-dvikryptis
     ```
 
-2.  **Vykdymas**:
-
+2. Kompiliuok ir paleisk:
     ```bash
-    ./array_program
+    g++ main.cpp -o programa
+    ./programa
     ```
 
-3.  **Meniu**:
+   Arba naudojant „Windows“:
+    ```bash
+    g++ main.cpp -o programa.exe
+    programa.exe
+    ```
 
-    Programa turi meniu, kuriame galite pasirinkti norimą veiksmą:
+---
 
-    * 1: Nustatyti masyvo dydį
-    * 2: Įvesti/atnaujinti masyvo elementus
-    * 3: Įvesti/atnaujinti intervalo reikšmes
-    * 4: Rasti didžiausią pagal absoliutų dydį elementą
-    * 5: Apskaičiuoti sumą po pirmojo teigiamo elemento
-    * 6: Perkelti elementus pagal intervalą
-    * 7: Spausdinti masyva
-    * 0: Grįžti į pagrindinį meniu
+## 🧪 Pavyzdys
 
-## Pavyzdžiai
+Programos metu:
+- Įterpiami elementai: `10, 20, 30, 40`
+- Pašalinamas elementas `20`
+- Tikrinama, ar yra `30`
+- Perkeliami likę elementai į dvikryptį sąrašą
 
-### Masyvo sukūrimas ir elementų įvedimas
+### Išvestis:
+    Vienkryptis sąrašas: 10 20 30 40
+    Ar yra 30? Taip
+    Vienkryptis sąrašas: 10 30 40
+    Dvikryptis sąrašas: 10 30 40
 
-1.  Pasirinkite 1, kad nustatytumėte masyvo dydį (pvz., 5).
-2.  Pasirinkite 2, kad įvestumėte masyvo elementus (pvz., -2, 5, -1, 3, -4).
 
-### Didžiausios absoliučios reikšmės radimas
 
-1.  Įvedus elementus, pasirinkite 4.
-2.  Programa parodys didžiausią absoliučios reikšmės elementą (pvz., 5).
+---
 
-### Sumos po pirmojo teigiamo elemento skaičiavimas
+## 🧹 Atminties valdymas
 
-1.  Įvedus elementus, pasirinkite 5.
-2.  Programa parodys sumą elementų, esančių po pirmojo teigiamo elemento (pvz., 3 + 4 = 7).
+Programa atlaisvina visą dinaminę atmintį, kuri buvo paskirta per `new` operatorių, naudodama `clear()` funkcijas abiems sąrašams.
 
-### Masyvo pertvarkymas pagal intervalą
+---
 
-1.  Įvedus elementus, pasirinkite 3, kad įvestumėte intervalą (pvz., [0; 4]).
-2.  Pasirinkite 6.
-3.  Programa pertvarkys masyvą (pvz., 3, 0, -2, 5, -4).
+## 📘 Reikalavimai
 
-### Masyvo spausdinimas
+- C++11 arba naujesnė
+- `g++`, `clang++`, arba „MSVC“
+- Jei naudojama `windows.h` – tik Windows OS
 
-1.  Įvedus elementus, pasirinkite 7.
-2.  Programa atspausdins masyvą.
+---
 
-## Autorius
+## 📄 Licencija
 
-[Kęstutis Skrebė]
-
-## Pastabos
-
-* Programa naudoja dinaminį atminties paskirstymą, todėl svarbu atlaisvinti atmintį po naudojimo.
-* Įvedant duomenis, programa tikrina, ar įvestis yra teisinga.
-* Programa naudoja `iomanip` biblioteką, kad formatuotų išvestį.
+Šis projektas pateikiamas kaip mokymosi pavyzdys. Galite naudoti, keisti ir platinti be jokių apribojimų.

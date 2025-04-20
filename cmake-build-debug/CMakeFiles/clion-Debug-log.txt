@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\kestu\Documents\VIKO\Algoritmai_duom_strukturos_tumasonis\praktinis_darbas2 Select CMakeLists.txt
