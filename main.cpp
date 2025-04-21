@@ -2,6 +2,11 @@
 #include <windows.h>
 
 
+/**
+ * Sukurti dinaminį vienkryptį sąrašą, realizuojant elemento įterpimo, pašalinimo, spausdinimo bei paieškos funkcijas.
+ * Perkelti to sąrašo visus elementus į dvikryptį. Atspausdinti visus dvikrypčio sąrašo elementus.
+ */
+
 using namespace std;
 
 struct Vienkryptis {

@@ -1,1 +1,4 @@
-CMakeLists.txt not found in C:\Users\kestu\Documents\VIKO\Algoritmai_duom_strukturos_tumasonis\praktinis_darbas2 Select CMakeLists.txt
+"D:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\kestu\Documents\VIKO\Algoritmai_duom_strukturos_tumasonis\praktinis_darbas2 -B C:\Users\kestu\Documents\VIKO\Algoritmai_duom_strukturos_tumasonis\praktinis_darbas2\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas2/cmake-build-debug

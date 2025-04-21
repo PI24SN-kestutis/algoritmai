@@ -246,6 +246,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+praktinis_darbas1_BINARY_DIR:STATIC=C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas2/cmake-build-debug
+
+//Value Computed by CMake
+praktinis_darbas1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+praktinis_darbas1_SOURCE_DIR:STATIC=C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas2
+
+//Value Computed by CMake
 praktinis_darbas2_BINARY_DIR:STATIC=C:/Users/kestu/Documents/VIKO/Algoritmai_duom_strukturos_tumasonis/praktinis_darbas2/cmake-build-debug
 
 //Value Computed by CMake
