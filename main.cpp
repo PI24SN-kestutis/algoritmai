@@ -1,6 +1,5 @@
 #include <iostream>
 #include <windows.h>
-#include <utility> // dėl std::pair
 
 /**
  *Simbolius (raides, skyrybos simbolius bei tarpus) įrašykite į dvikryptį sąrašą.
@@ -9,6 +8,12 @@
 
 
 using namespace std;
+
+struct Rezultatas {
+    char simbolis;
+    int kiekis;
+};
+
 
 struct Dvikryptis {
     char data;
@@ -45,9 +50,9 @@ public:
         return count;
     }
 
-    pair<char, int> mostDazniausiaiLowercase() {
+    Rezultatas mostDazniausiaiLowercase() {
         Dvikryptis* curr = head;
-        char mostFreqChar = '\0'; // tuščias simbolis
+        char mostFreqChar = '\0';
         int maxCount = 0;
 
         while (curr) {
@@ -64,6 +69,7 @@ public:
 
         return {mostFreqChar, maxCount};
     }
+
 
 
     ~DvikryptisLinkedList() {
@@ -87,16 +93,17 @@ int main() {
         list.append(ch);
     }
 
-    pair<char, int> result = list.mostDazniausiaiLowercase();
-    if (result.second > 0) {
-        if (result.first == ' ')
-            cout << "Dažniausiai pasikartojęs simbolis yra tarpas: |_| (pasikartojo " << result.second << " kartus)" << endl;
+    Rezultatas result = list.mostDazniausiaiLowercase();
+    if (result.kiekis > 0) {
+        if (result.simbolis == ' ')
+            cout << "Dažniausiai pasikartojęs simbolis yra tarpas: |_| (pasikartojo " << result.kiekis << " kartus)" << endl;
         else
-            cout << "Dažniausiai pasikartojanti mažoji raidė: '" << result.first
-                 << "' (pasikartojo " << result.second << " kartus)" << endl;
+            cout << "Dažniausiai pasikartojanti mažoji raidė: '" << result.simbolis
+                 << "' (pasikartojo " << result.kiekis << " kartus)" << endl;
     } else {
         cout << "Mažųjų raidžių ir tarpo simbolių nerasta." << endl;
     }
+
 
     return 0;
 }
